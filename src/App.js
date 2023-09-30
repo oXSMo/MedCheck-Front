@@ -15,7 +15,7 @@ function App() {
       
 
       <BrowserRouter>
-          <Routes>
+          <Routes basename="MedCheck-Front">
             <Route path="/" element={<Home />} />
             <Route path="/sign" element={<Sign />} />
             <Route path="/quiz" element={<Quiz />} />
