@@ -13,7 +13,7 @@ function a11yProps(index) {
 export default function YearsTab() {
 
 
-    const [value, setValue] = useState(undefined);
+    const [value, setValue] = useState(1);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);

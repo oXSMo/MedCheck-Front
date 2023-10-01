@@ -21,7 +21,7 @@ export default function Card({info}) {
             cardio-respiratoire
         </h2>
         <hr/>
-        <div className="m-2 mt-3 w-11/12 overflow-auto noScroll flex justify-center flex-wrap"> <p className='text-center'>{info.title}</p></div>
+        <div className="mt-2 w-full tracking-tight noScroll max-h-20 overflow-auto flex justify-center flex-wrap"> <p className='text-center'>{info.title}</p></div>
         <button onClick={()=>{ Navigate("/quiz") ; localStorage.setItem("QuestId",info.id) ; Restart() }} className="signbutton1 border-2 rounded-md border-[#4D88EA] font-bold mt-2 hover:border-white">Start Quiz</button>
       </div>
   )
